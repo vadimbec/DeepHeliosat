@@ -22,8 +22,9 @@ Targets: `GHI_corrected` and `kc_corrected` (clearness index), predicted jointly
 
 ## Data
 
-The dataset and results are hosted on Hugging Face: [vadimbec/DeepHeliosat](https://huggingface.co/datasets/vadimbec/DeepHeliosat)
+> **Coming soon:** The dataset and results will be uploaded to Hugging Face at [vadimbec/DeepHeliosat](https://huggingface.co/datasets/vadimbec/DeepHeliosat) and linked here.
 
+Planned content:
 - `FullDataset_all_corrected_roundagg.csv` — main tabular dataset (GOES-16 + BSRN/SOLRAD/NREL ground measurements, 2019–2022)
 - `results/` — per-run model predictions on the test set
 
@@ -41,6 +42,10 @@ numpy
 scikit-learn
 tqdm
 ```
+
+## Dataset construction
+
+> **Coming soon:** The scripts for building the dataset from raw GOES-16 satellite images and in-situ station time series are not yet included in this repository and will be added in a future update.
 
 ## Usage
 
