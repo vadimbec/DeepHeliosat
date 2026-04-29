@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pth
+*.pkl
+
+# Data
+*.csv
+*.npy
+*.nc
+*.h5
+*.hdf5
+
+# Notebooks
+*.ipynb
+
+# Misc
+.DS_Store
+*.log
